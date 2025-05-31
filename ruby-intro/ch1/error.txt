@@ -3,4 +3,5 @@ What does the following error message tell you?
 SyntaxError: (irb):2: syntax error, unexpected ')', expecting '}'
   from /usr/local/rvm/rubies/ruby-2.5.3/bin/irb:16:in `<main>'
 
-That a ')' was used somewhere the interpreter was expecting a '}'. At the end of a hash literal, for example.
+That a ')' was used somewhere the interpreter was expecting a '}'. 
+At the end of a hash literal, for example.
