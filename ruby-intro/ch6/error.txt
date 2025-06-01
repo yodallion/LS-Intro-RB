@@ -1,0 +1,7 @@
+What error do you get with this code and how can you fix it?
+
+names = ['bob', 'joe', 'susan', 'margaret']
+names['margaret'] = 'jody'
+
+index notation only accepts integers, not strings, as keys.
+So, the second line should read "names[3] = 'jody'"
