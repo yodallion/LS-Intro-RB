@@ -1,5 +1,5 @@
 # New syntax
 hash = {symbol: "value"}
 
-# Old synth
+# Old syntax
 hash = {:symbol => "value"}
