@@ -6,7 +6,7 @@ contacts = {"Joe Smith" => {}, "Sally Johnson" => {}}
 #Challenge Solution
 fields = [:email, :address, :phone]
 
-contacts.each_with_index { |(name, hash), idx| 
+contacts.each_with_index { |(name, hash), idx|
   fields.each { |field| 
     hash[field] = contact_data[idx].shift
   }
