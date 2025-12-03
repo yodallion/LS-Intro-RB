@@ -8,5 +8,3 @@ loop do
     puts "Try again"
   end
 end
-
-# LS Solution
